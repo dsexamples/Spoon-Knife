@@ -45,3 +45,14 @@ The full command is **git pull origin master**: It pulls the commit from the **o
 **git diff --staged** - review what you have added to staging area
 
 todo: set up some automated tests triggered after push. Maybe even auto-rollback a commit before pushed.
+
+### Rebase
+
+We have Master: A
+
+Now checkout another branch called topic
+**git checkout -b topic**
+
+Edit README.md and commit for topic branch, commit change
+
+
