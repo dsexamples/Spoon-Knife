@@ -56,3 +56,7 @@ Now checkout another branch called topic
 Edit README.md and commit for topic branch, commit change
 
 
+Switch to master and make an "upstream" change to another file
+
+**git checkout master**
+git add index.html git commit -m ....
